@@ -1,0 +1,18 @@
+
+
+super.earnings():
+
+This line means "go to the superclass and run its earnings method." 
+It's used in a subclass to call a method from the parent class.
+
+@Override:
+This line tells the computer, "Hey, I'm going to rewrite a method from 
+the parent class here." It's like a reminder to the computer 
+that you're intentionally changing the behavior of a method from the parent class.
+
+
+
+super(firstArgument, secondArgument):
+This line means "start with the constructor from the parent class and 
+pass it firstArgument and secondArgument." It's used in a subclass to make sure that 
+the parent's constructor runs first and gets the necessary information.
